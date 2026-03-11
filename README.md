@@ -196,25 +196,6 @@ Fix any issues it reports before proceeding to submission.
 
 ## Submission
 
-This lab has **two** submission steps — a Pull Request for AI grading and a Google Drive upload for the shared class dataset.
-
-### Step A: Submit a Pull Request
-
-Your PR must include `my_imageids.txt` in the repository root — the AI grading system checks this file to verify that your image selection follows the deterministic partitioning scheme, contains at least 100 ImageIDs, and is non-overlapping with other students.
-
-When you are done, run:
-
-```bash
-git add .
-git commit -m "Solved m2-06 lab"
-git push -u origin HEAD
-```
-
-- Create a pull request from your fork.
-- Paste the link to your pull request in the Student Portal.
-
-### Step B: Upload your dataset to Google Drive
-
 Upload a folder named with your student ID to the shared class folder so the full dataset can be assembled:
 
 **[Shared Google Drive folder](https://drive.google.com/drive/folders/1qeGvkaK7UkNMYoESQHxGbV4DRH8EgEb0?usp=sharing)**
@@ -240,9 +221,8 @@ Before you submit, make sure:
 - [ ] Your `images/` folder contains exactly 100 `.jpg` files.
 - [ ] Your `labels/` folder contains exactly 100 `.txt` files.
 - [ ] Your `my_imageids.txt` contains at least 100 ImageIDs (one per line, sorted).
-- [ ] Your `my_imageids.txt` is committed to your repo and included in your Pull Request.
-- [ ] You have pasted the PR link in the Student Portal.
 - [ ] Your Google Drive folder is named with your student ID and contains images, labels, and `my_imageids.txt`.
+- [ ] You have uploaded your `my_imageids.txt` file in the Student Portal.
 
 ## Evaluation Criteria
 
