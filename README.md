@@ -200,20 +200,18 @@ This lab has **two** submission steps — a Pull Request for AI grading and a Go
 
 ### Step A: Submit a Pull Request
 
-Fork the repo, commit **only** your `my_imageids.txt`, and open a Pull Request. The AI grading system checks this file to verify that your image selection follows the deterministic partitioning scheme, contains at least 100 ImageIDs, and is non-overlapping with other students.
+Your PR must include `my_imageids.txt` in the repository root — the AI grading system checks this file to verify that your image selection follows the deterministic partitioning scheme, contains at least 100 ImageIDs, and is non-overlapping with other students.
 
 When you are done, run:
 
 ```bash
-git add my_imageids.txt
+git add .
 git commit -m "Solved m2-06 lab"
 git push -u origin HEAD
 ```
 
 - Create a pull request from your fork.
 - Paste the link to your pull request in the Student Portal.
-
-> **Important:** Do not commit images, labels, reports, or CSV files to the repo — only `my_imageids.txt`.
 
 ### Step B: Upload your dataset to Google Drive
 
